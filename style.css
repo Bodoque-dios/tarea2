@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@100&display=swap');
 
 * {
-    font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Mono', monospace;
 }
 
@@ -12,16 +11,19 @@ nav{
     padding: 1rem;
 }
 
-nav a{
+nav .name, .inicio{
     text-decoration: none;
     color: lightgray;
     font-size: 1.5rem;
     font-weight: bold;
-    padding: 2rem 0.5rem 2rem 0.5rem;
-    margin: 1rem 0 1rem 0;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out
+
 }
 
-nav a:hover{
+nav .name:hover{
     background-color: #fff;
     color: #000;
 }
