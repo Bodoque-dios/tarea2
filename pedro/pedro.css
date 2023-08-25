@@ -1,0 +1,158 @@
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    background-color: black;
+    padding: 0.8rem;
+}
+nav a {
+    text-decoration: none;
+    color: lightgray;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.3rem 1rem;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out
+}
+
+nav a:hover{
+    background-color: lightgray;
+    color: #000;
+}
+
+
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.hobbie-container{
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.hobbie-content h3{
+    text-decoration: underline;
+}
+.hobbie-content li{
+    padding: 0.5rem;
+}
+
+/* LEER */
+.leer-container{
+    margin-top: 3rem;
+}
+.leer-container span{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #0077b6;
+}
+
+.leer-img-container{
+    max-width: 400px;
+    border: 3px solid #0077b6;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.leer-img-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+}
+
+/* Juegos */
+
+.juegos-container span{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #6c757d;
+}
+.juegos-img-container{
+    max-width: 400px;
+    border: 3px solid #6c757d;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.juegos-img-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+}
+
+.peliculas-container span{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #6a994e;
+}
+.peliculas-img-container{
+    max-width: 400px;
+    border: 3px solid #6a994e;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.peliculas-img-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+}
+
+/* Animaciones */
+
+.img-container{
+    transition: all 0.3s ease-out;
+}
+.img-container:hover{
+    transform: scale(1.08);
+}
+
+.main-content > * {
+    opacity: 0;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.main-content > * {
+    animation: fade-in 0.5s ease-in-out forwards;
+}
+
+.main-content > *:nth-child(1) {
+    animation-delay: 0.2s;
+}
+.main-content > *:nth-child(2) {
+    animation-delay: 0.25s;
+}
+.main-content > *:nth-child(3) {
+    animation-delay: 0.3s;
+}
+.main-content > *:nth-child(4) {
+    animation-delay: 0.5s;
+}
+.main-content > *:nth-child(5) {
+    animation-delay: 0.7s;
+}
+.main-content > *:nth-child(6) {
+    animation-delay: 0.9s;
+}
+
