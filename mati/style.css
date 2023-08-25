@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'Aleksei';
+    src: url('Aleksei-Inline.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+}
+
+* {
+    font-family: Aleksei;
+}
+
+body {
+    background-color: #C2B6A9ff;
+    margin: 0px;
+}
+
+main {
+    margin: 1rem auto;
+    width: 50%;
+}
+
+main li, p{
+    font-size: 1.5rem;
+    margin: 1rem;
+    text-align: justify;
+    line-height: 2rem;
+}
+
+main h2 {
+    text-decoration: underline;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+nav {
+    background-color: #5F6C72ff;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+}
+nav a {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+}
+
+nav a:hover {
+    background-color: #AFB2BDff;
+}
+
+.borat {
+    position: relative;
+    text-align: center;
+}
+.borat h1 {
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    left: 32vw;
+    color: black;
+    font-size: 4rem;
+    text-shadow: 5px 2px 2px white;
+
+}
+
+.borat h1:hover {
+    animation: rotation 2s 1 linear;
+
+}
+
+
+.img-container img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #5F6C72ff;
+
+}
+
+lol {
+    color: #464D73;
+    color: #D9BE6C;
+    color: #A6786D;
+    color: #F2F2F2;
+    color: #C1B1A5;
+    color: #BFBFBF;
+    color: #59150F;
+    color: #736939;
+    color: #40302A;
+
+    color: #AFB2BDff;
+    color: #5F6C72ff;
+    color: #6A7278ff;
+    color: #424853;
+    color: #C2B6A9ff;
+}
