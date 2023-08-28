@@ -55,6 +55,12 @@ main{
     margin-bottom: 15px;
 }
 
+h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
 .proyectos-container{
     display: flex;
     justify-content: center;
